@@ -1,0 +1,124 @@
+:root {
+--primary-text-color: #212121;
+--paragraph-text-color: #757575;
+--title-text-color:#212121;
+--accent-text-color: #2196F3;
+--accentbutton-text-color: #FFFFFF;
+--contact-text-color: #757575;
+--primary-white-color: #E5E5E5;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: var(--primary-text-color);
+   background-color: var(--primary-white-color);
+}
+
+/*!===Логотип===*/
+
+.logo {
+   font-family: 'Raleway';
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 0.8;
+   color: var(--primary-text-color);
+}
+
+.logo-decoration {
+   color: var(--accent-text-color);
+}
+
+/*!===Навигация===*/
+
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+   color: var(--accent-text-color);
+}
+
+.link {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 0.8;
+   color: var(--primary-text-color);
+}
+
+/*!===Контакты===*/
+
+.contact .link:hover,
+.contact .link:focus {
+   color: var(--accent-text-color);
+}
+
+.contact .link  {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 0.8;
+   color: var(--contact-text-color);
+}
+
+/*!===Кнопки===*/
+
+.filter-button:hover,
+.filter-button:focus {
+   background: var(--accent-text-color);
+   color: var(--accentbutton-text-color); 
+}
+
+.filter-button {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 0.6;
+   cursor: pointer;
+}
+
+/*!===Title===*/
+.title {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 0.5;
+}
+
+/*!===Параграф===*/
+
+.paragraph {
+   color: var(--paragraph-text-color);
+}
+
+/*!Главная страница*/
+
+.list h3 {
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 0.8;
+}
+
+.list p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 0.5;
+   color: var(--paragraph-text-color);
+}
+
+.list-comand h3 {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 0.8;
+}
+
+.list-comand p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 0.8;
+   color: var(--paragraph-text-color);
+}
